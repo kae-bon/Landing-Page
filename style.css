@@ -1,0 +1,92 @@
+/* Let's get into some CSS! God help me */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.hero,
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    height: 400px;
+    padding-bottom: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.section-one {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.text {
+    width: 400px;
+    height: auto;
+}
+
+.hero,
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    gap: 20px;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-style: bold;
+    color: #F9FAF8;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.info-header {
+    font-size: 36px;
+    font-style: bold;
+    color: #1F2937;
+}
+
+.section-four button,
+.section-four {
+    background-color: #3882F6;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+img {
+  width: 400px;
+  height: auto;
+}
