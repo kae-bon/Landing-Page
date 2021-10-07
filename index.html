@@ -1,41 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Landing Page</title>
+    <title>Coffee</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/93b8be6449.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="hero">
-      <div class="header-left">
-          <div class="header-logo">Header Logo</div>
-            <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes here under the main title. 
-              It's a smaller font and the color is lower contrast.</p>
-            <button>Sign Up</button>
+      <div class="header-top">
+          <div class="header-logo">Coffee</div>
+          <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
       </div>
-      <div class="header-right">
-        <ul class="nav">
-          <li><a href="#">header link one</a></li>
-          <li><a href="#">header link two</a></li>
-          <li><a href="#">header link three</a></li>
-        </ul>
+      <div class="header-bottom">
+        <div class="bottom-left">
+          <h1>This website is awesome</h1>
+              <p class="subtext">This website has some subtext that goes here under the main title. 
+                It's a smaller font and the color is lower contrast.</p>
+              <button>Sign Up</button>
+        </div>
         <img alt= "latte art" src="images/latte.jpg">
       </div>
     </div>
     <div class="section-two">
-      <p class="info-header">Some random information.</p>
-      <div class="icon-one">
-        <img src="#">
-        <p>this is some subtext under an illustration or image.</p>
-      </div>
-      <div class="icon-two">
-        <img src="#">
-        <p>this is some subtext under an illustration or  image.</p>
-      </div>
-      <div class="icon-three">
-        <img src="#">
-        <p>this is some subtext under an illustration of an image.</p>
+      <p class="info-header">Some Coffee Drinks</p>
+      <div class="icons">
+        <div class="icon-one">
+          <i class="fas fa-mug-hot"></i>
+          <p class="icon-text">Coffee</p>
+        </div>
+        <div class="icon-two">
+          <i class="fas fa-coffee"></i>
+          <p class="icon-text">Latte</p>
+        </div>
+        <div class="icon-three">
+          <i class="fas fa-mug-hot"></i>
+          <p class="icon-text">Capuccino</p>
+        </div>
+        <div class="icon-four">
+          <i class="fas fa-coffee"></i>
+          <p class="icon-text">Cortado</p>
+        </div>
       </div>
     </div>
     <div class="section-three">
@@ -45,9 +54,11 @@
       <p>-Thor, God of Thunder</p>
     </div>
     <div class="section-four">
-      <p>Call to action! It's time!<br>
-        Sign up for our product by clicking that button right over there!</p>
-      <button>Sign up</button>
+      <div class="four-content">
+        <p class="call"><strong>Let's Connect!</strong><br>
+          I'd love to talk about all things coffee!</p>
+        <button class="sign-up"><strong>Sign up</strong></button>
+      </div>
     </div>
     <div class="footer">
       <p>Copyright @ The Odin Project 2021</p>
